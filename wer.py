@@ -1,5 +1,5 @@
 Name="wer"
-Version=0.5
+Version="0.5"
 Depends=["python3", "bash", "curl"]
 
 

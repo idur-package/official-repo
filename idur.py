@@ -1,6 +1,6 @@
-Name="tcs-cleaner"
-Version="0"
-Depends=["curl", "bash"]
+Name="idur"
+Version="v0.0.1"
+Depends=["curl", "bash", "python3", ""]
 
 
 Install="""
