@@ -1,6 +1,6 @@
 Name="idur"
 Version="v0.0.1"
-Depends=["curl", "bash", "python3", ""]
+Depends=["curl", "bash", "python3", "coreutils"]
 
 
 Install="""
