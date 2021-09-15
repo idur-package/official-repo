@@ -1,4 +1,4 @@
-Name="idur"
+Name="idur-stable"
 Version="v0.0.1"
 Depends=["curl", "bash", "python3", "coreutils"]
 
