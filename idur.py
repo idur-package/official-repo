@@ -4,10 +4,17 @@ Depends=["curl", "bash", "python3", ""]
 
 
 Install="""
-curl https://raw.githubusercontent.com/Can202/tcs-cleaner/main/installer | bash
+cd /tmp/
+rm -vrf idurtemp/
+mkdir -p idurtemp/
+cd idurtemp/
+curl -LO https://raw.githubusercontent.com/idur-package/idur/v0.0.1/src/idur.py
+chmod a+x idur.py
+cp idur.py /usr/bin/idur
+rm -vrf idurtemp/
 
 """
 
 Remove="""
-tcs-cleaner-remove
+rm -vrf /usr/bin/idur
 """
