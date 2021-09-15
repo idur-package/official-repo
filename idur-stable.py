@@ -2,6 +2,13 @@ Name="idur-stable"
 Version="v0.0.1"
 Depends=["curl", "bash", "python3", "coreutils"]
 
+Maintainer="Can202"
+Contact="mgoopazo@hotmail.com"
+
+Description="""
+idur
+"""
+
 
 Install="""
 cd /tmp/

@@ -2,6 +2,14 @@ Name="wer"
 Version="0.5"
 Depends=["python3", "bash", "curl"]
 
+Maintainer="Can202"
+Contact="mgoopazo@hotmail.com"
+License="https://raw.githubusercontent.com/Can202/wer/main/LICENSE"
+
+Description="""
+wer is a program to read file with terminal
+"""
+
 
 Install="""
 
