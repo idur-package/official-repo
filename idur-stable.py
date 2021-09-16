@@ -17,7 +17,7 @@ cd /tmp/
 rm -vrf idurtemp/
 mkdir -p idurtemp/
 cd idurtemp/
-curl -LO https://raw.githubusercontent.com/idur-package/idur/v0.0.1/src/idur.py
+curl -LO https://raw.githubusercontent.com/idur-package/idur/v0.0.2/src/idur.py
 chmod a+x idur.py
 cp idur.py /usr/bin/idur
 rm -vrf idurtemp/
