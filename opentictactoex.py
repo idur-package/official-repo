@@ -2,7 +2,7 @@ Name="opentictactoex"
 Version="v0.5"
 Depends=["libxcursor1"]
 
-Conflict=["xterm"]
+Conflict=["lxterminal"]
 
 Maintainer="Can202"
 Contact="mgoopazo@hotmail.com"
