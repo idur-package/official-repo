@@ -2,8 +2,6 @@ Name="opentictactoex"
 Version="v0.5"
 Depends=["libxcursor1"]
 
-Conflict=["idur-stable"]
-
 Maintainer="Can202"
 Contact="mgoopazo@hotmail.com"
 
