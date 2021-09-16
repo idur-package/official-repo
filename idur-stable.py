@@ -1,6 +1,6 @@
 Name="idur-stable"
 Version="v0.0.1"
-Depends=["curl", "bash", "python3", "coreutils"]
+Depends=["curl", "bash", "python3", "coreutils", "git"]
 
 Maintainer="Can202"
 Contact="mgoopazo@hotmail.com"
