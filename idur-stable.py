@@ -1,5 +1,5 @@
 Name="idur-stable"
-Version="v0.0.1"
+Version="v0.0.2"
 Depends=["curl", "bash", "python3", "coreutils", "git"]
 
 Maintainer="Can202"
