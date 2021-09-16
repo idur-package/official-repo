@@ -1,6 +1,7 @@
 Name="tcs-cleaner"
 Version="0"
 Depends=["curl", "bash"]
+Conflict=["tcs-cleaner"]
 
 Maintainer="Can202"
 Contact="mgoopazo@hotmail.com"

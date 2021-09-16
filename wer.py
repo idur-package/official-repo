@@ -1,6 +1,7 @@
 Name="wer"
 Version="0.5"
 Depends=["python3", "bash", "curl"]
+Conflict=["wer"]
 
 Maintainer="Can202"
 Contact="mgoopazo@hotmail.com"

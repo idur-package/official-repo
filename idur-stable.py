@@ -2,7 +2,7 @@ Name="idur-stable"
 Version="v0.0.3"
 Depends=["curl", "bash", "python3", "coreutils", "git"]
 
-#Conflict=["conflict"]
+Conflict=["idur-stable", "idur-dev"]
 
 Maintainer="Can202"
 Contact="mgoopazo@hotmail.com"
