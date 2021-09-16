@@ -6,8 +6,7 @@ Maintainer="Can202"
 Contact="mgoopazo@hotmail.com"
 License="https://raw.githubusercontent.com/Can202/wer/main/LICENSE"
 
-x86_64="normal"
-i386="normal"
+Arch="all" #all, x86_64, i386, both
 
 Description="""
 wer is a program to read file with terminal
