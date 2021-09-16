@@ -5,6 +5,9 @@ Depends=["curl", "bash", "python3", "coreutils"]
 Maintainer="Can202"
 Contact="mgoopazo@hotmail.com"
 
+x86_64="normal"
+i386="normal"
+
 Description="""
 idur
 """
@@ -25,3 +28,4 @@ rm -vrf idurtemp/
 Remove="""
 rm -vrf /usr/bin/idur
 """
+

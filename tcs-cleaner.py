@@ -5,6 +5,9 @@ Depends=["curl", "bash"]
 Maintainer="Can202"
 Contact="mgoopazo@hotmail.com"
 
+x86_64="normal"
+i386="normal"
+
 Description="""
 tcs-cleaner
 """
