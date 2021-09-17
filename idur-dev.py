@@ -1,5 +1,5 @@
 Name="idur-dev"
-Version="v0.0.9"
+Version="v0.0.9-dev.1"
 Depends=["curl", "bash", "python3", "coreutils", "git"]
 
 Conflict=["idur-stable", "idur-dev"]
@@ -19,7 +19,7 @@ cd /tmp/
 rm -vrf idurtemp/
 mkdir -p idurtemp/
 cd idurtemp/
-curl -LO https://raw.githubusercontent.com/idur-package/idur/v0.0.9/src/idur.py
+curl -LO https://raw.githubusercontent.com/idur-package/idur/e64b20b6a040e856feb06522e66fcb42b2c7d018/src/idur.py
 chmod a+x idur.py
 cp idur.py /usr/bin/idur
 rm -vrf idurtemp/
