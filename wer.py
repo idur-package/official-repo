@@ -10,7 +10,10 @@ License="https://raw.githubusercontent.com/Can202/wer/main/LICENSE"
 Arch="all" #all, x86_64, i386, both
 
 Description="""
-wer is a program to read file with terminal
+wer is a program to read files with terminal, an alternative
+to cat, but also it can create plain/text files, write quick
+phrases on file, clear the windows, check if the file exists,
+remove files and list directories.
 """
 
 
