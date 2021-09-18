@@ -1,6 +1,6 @@
 Name="test"
 Version="0.5"
-Depends=["python3", "bash", "curl", "rec/xterm", "sug/lxterminal"]
+Depends=["python3", "bash", "curl", "rec/xterm lxterminal"]
 Conflict=["wer", "test"]
 
 Maintainer="Can202"
