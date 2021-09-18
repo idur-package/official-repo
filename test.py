@@ -1,6 +1,7 @@
 Name="test"
 Version="0.5"
 Depends=["python3", "bash", "curl", "rec/xterm lxterminal"]
+idurDepends=["idur-dev idur-stable"]
 Conflict=["wer", "test"]
 
 Maintainer="Can202"
