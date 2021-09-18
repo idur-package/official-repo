@@ -1,7 +1,7 @@
 Name="test"
 Version="0.5"
 Depends=["python3", "bash", "curl", "rec/xterm lxterminal"]
-idurDepends=["sug/idur-stable opentictactoex"]
+idurDepends=["sug/idur-stable idur-dev"]
 Conflict=["wer", "test"]
 
 Maintainer="Can202"
