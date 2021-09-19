@@ -8,7 +8,7 @@ Contact="mgoopazo@gmail.com"
 
 Arch="all"
 
-Depends= ["python3", "coreutils", "curl"]
+Depends= ["python3", "coreutils", "curl", "rec/idur-stable idur-dev"]
 Conflict= ["create-idur"]
 Description="""
 
