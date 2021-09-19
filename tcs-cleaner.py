@@ -9,7 +9,8 @@ Contact="mgoopazo@hotmail.com"
 Arch="all" #all, x86_64, i386, both
 
 Description="""
-tcs-cleaner
+tcs-cleaner is a system cleaner script, Update your system, remove temp data,
+cache files if I spend a long time without being used and remove logs.
 """
 
 Install="""

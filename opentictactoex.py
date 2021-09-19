@@ -9,7 +9,7 @@ Contact="mgoopazo@hotmail.com"
 Arch="both" #all, x86_64, i386, both
 
 Description="""
-opentictactoex
+opentictactoex, a simple Tic Tac Toe game to play with a friend.
 """
 
 

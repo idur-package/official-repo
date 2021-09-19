@@ -12,7 +12,9 @@ Depends= ["vim", "bash", "neofetch"]
 Conflict= ["laer"]
 Description="""
 
-clear command, but personalized
+clear command, but personalized, you can made a bash script to execute, when you
+clear the windows with laer. Use add-link to add a 'command' to /bin or use an
+alias like: alias clear=laer.
 
 """
 

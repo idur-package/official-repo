@@ -10,7 +10,9 @@ Contact="mgoopazo@hotmail.com"
 Arch="all" #all, x86_64, i386, both
 
 Description="""
-idur
+idur is a community package manager to debian systems (ubuntu-based too)
+
+Like an AUR, but more simple.
 """
 
 
