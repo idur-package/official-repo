@@ -14,7 +14,7 @@ Depends = ["libxcursor1"]
 idurDepends = ["idur-pkg"]
 Conflict= ["batjump-canjam"]
 Description="""
-BatJump is a clone of flappy bird, made to a jam
+BatJump is a clone of flappy bird game, made to a jam
 """
 
 Install64="""
