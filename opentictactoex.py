@@ -33,7 +33,7 @@ Install32="""
 rm -vrf /tmp/otttxtemp/
 mkdir -p /tmp/otttxtemp/
 cd /tmp/otttxtemp/
-curl -LO https://sourceforge.net/projects/opentictactoex/files/v0.5/OpenTicTacToeX.x86_64/download
+curl -LO https://sourceforge.net/projects/opentictactoex/files/v0.5/OpenTicTacToeX.x86/download
 curl -LO https://raw.githubusercontent.com/OpenTicTacToeX/package/main/deb64/usr/share/icons/hicolor/256x256/apps/opentictactoex.png
 curl -LO https://raw.githubusercontent.com/OpenTicTacToeX/package/main/deb64/usr/share/applications/opentictactoex.desktop
 chmod a+x opentictactoex.desktop

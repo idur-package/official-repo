@@ -43,7 +43,7 @@ Type=Application
 Categories=Game" > /usr/share/applications/batjump-canjam.desktop
 
 mkdir -p /usr/lib64/batjump-canjam
-cp * /usr/lib64/batjump-canjam/
+cp /tmp/idur-bjcj-tmp/* /usr/lib64/batjump-canjam/
 
 ln /usr/lib64/batjump-canjam/batjump-canjam /usr/bin/batjump-canjam
 
@@ -52,7 +52,7 @@ ln /usr/lib64/batjump-canjam/batjump-canjam /usr/bin/batjump-canjam
 
 Install32="""
 idur-pkg tmp
-cd /tmp/idur-pkg-tmp/
+cd /tmp/idur-bjcj-tmp/
 idur-pkg download https://github.com/Can202/BatJump/releases/download/jam/Linux32.zip
 unzip Linux32.zip
 chmod a+x BatJump.x86
@@ -76,7 +76,7 @@ Type=Application
 Categories=Game" > /usr/share/applications/batjump-canjam.desktop
 
 mkdir -p /usr/lib32/batjump-canjam
-cp * /usr/lib32/batjump-canjam/
+cp /tmp/idur-bjcj-tmp/* /usr/lib32/batjump-canjam/
 
 ln /usr/lib32/batjump-canjam/batjump-canjam /usr/bin/batjump-canjam
 
