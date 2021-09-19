@@ -8,7 +8,7 @@ Contact="mgoopazo@gmail.com"
 
 Arch="all"
 
-Depends= ["vim", "bash", "neofetch"]
+Depends= ["vim", "bash", "neofetch", "coreutils"]
 Conflict= ["laer"]
 Description="""
 
