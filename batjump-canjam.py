@@ -10,8 +10,8 @@ Arch="both"
 
 
 License="https://raw.githubusercontent.com/Can202/BatJump/main/LICENSE"
-Depends= ["libxcursor1"]
-idurDepends= ["idur-pkg"]
+Depends = ["libxcursor1"]
+idurDepends = ["idur-pkg"]
 Conflict= ["batjump-canjam"]
 Description="""
 
@@ -22,7 +22,12 @@ idur-pkg tmp
 cd /tmp/idur-pkg-tmp/
 idur-pkg download https://github.com/Can202/BatJump/releases/download/jam/Linux64.zip
 unzip Linux64.zip
-mv BatJump.x86_64 batjump-canjam
+chmod a+x BatJump.x86_64
+
+echo "#!/usr/bin/bash
+cd /usr/lib64/batjump-canjam/
+./BatJump.x86_64" > batjump-canjam
+
 chmod a+x batjump-canjam
 idur-pkg rm Linux64.zip
 
@@ -50,7 +55,12 @@ idur-pkg tmp
 cd /tmp/idur-pkg-tmp/
 idur-pkg download https://github.com/Can202/BatJump/releases/download/jam/Linux32.zip
 unzip Linux32.zip
-mv BatJump.x86 batjump-canjam
+chmod a+x BatJump.x86
+
+echo "#!/usr/bin/bash
+cd /usr/lib32/batjump-canjam/
+./BatJump.x86" > batjump-canjam
+
 chmod a+x batjump-canjam
 idur-pkg rm Linux32.zip
 
@@ -65,10 +75,11 @@ Icon=batjump-canjam
 Type=Application
 Categories=Game" > /usr/share/applications/batjump-canjam.desktop
 
-mkdir -p /usr/lib64/batjump-canjam
-cp * /usr/lib64/batjump-canjam/
+mkdir -p /usr/lib32/batjump-canjam
+cp * /usr/lib32/batjump-canjam/
 
-ln /usr/lib64/batjump-canjam/batjump-canjam /usr/bin/batjump-canjam
+ln /usr/lib32/batjump-canjam/batjump-canjam /usr/bin/batjump-canjam
+
 
 
 """
