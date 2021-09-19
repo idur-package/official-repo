@@ -1,7 +1,7 @@
 Name="idur-stable"
 Version="v0.1.3"
 Depends=["curl", "bash", "python3", "coreutils", "git"]
-idurDepends=["idur-pkg"]
+
 
 Conflict=["idur-stable", "idur-dev"]
 
@@ -26,6 +26,8 @@ curl -LO https://raw.githubusercontent.com/idur-package/idur/v0.1.3/src/idur.py
 chmod a+x idur.py
 cp idur.py /usr/bin/idur
 rm -vrf idurtemp/
+
+idur install idur-pkg
 
 """
 
