@@ -10,12 +10,11 @@ Arch="both"
 
 
 License="https://raw.githubusercontent.com/Can202/GameOfLifeGodot/main/LICENSE"
-Depends= ["s"]
+Depends = ["libxcursor1"]
 idurDepends= ["idur-pkg"]
 Conflict= ["game-of-life-can"]
 Description="""
-
-description here
+The Game of Life by John Horton Conway created on Godot
 
 """
 

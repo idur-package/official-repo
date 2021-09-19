@@ -14,12 +14,12 @@ Depends = ["libxcursor1"]
 idurDepends = ["idur-pkg"]
 Conflict= ["batjump-canjam"]
 Description="""
-
+BatJump is a clone of flappy bird, made to a jam
 """
 
 Install64="""
-idur-pkg tmp
-cd /tmp/idur-pkg-tmp/
+idur-pkg tmp bjcj
+cd /tmp/idur-bjcj-tmp/
 idur-pkg download https://github.com/Can202/BatJump/releases/download/jam/Linux64.zip
 unzip Linux64.zip
 chmod a+x BatJump.x86_64
