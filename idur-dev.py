@@ -1,6 +1,7 @@
 Name="idur-dev"
 Version="v0.1.3-dev"
 Depends=["curl", "bash", "python3", "coreutils", "git"]
+idurDepends=["idur-pkg"]
 
 Conflict=["idur-stable", "idur-dev"]
 
