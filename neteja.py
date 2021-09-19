@@ -10,7 +10,7 @@ Arch="all"
 
 
 License="https://gitlab.com/voromv/Neteja/-/raw/main/LICENSE"
-Depends= ["dialog", "sudo", "coreutils", "bash", "curl", "tar"]
+Depends= ["dialog", "sudo", "coreutils", "bash", "curl", "tar", "sug/snapd", "sug/flatpak"]
 Conflict= ["neteja"]
 Description="""
 Neteja es un script de limpieza para linux, hecho por Voro MV y su comunidad.
