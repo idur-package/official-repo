@@ -1,6 +1,6 @@
 
 Name="idur-pkg"
-Version="v0.2"
+Version="v0.3"
 
 
 Maintainer="Can202"
@@ -17,7 +17,7 @@ idur dev tools
 
 Install="""
 
-curl -L https://raw.githubusercontent.com/Can202/idur-pkg/v0.2/idur-pkg > /usr/bin/idur-pkg
+curl -L https://raw.githubusercontent.com/Can202/idur-pkg/v0.3/idur-pkg > /usr/bin/idur-pkg
 chmod a+x /usr/bin/idur-pkg
 
 """
