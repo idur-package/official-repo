@@ -9,6 +9,7 @@ Contact="mgoopazo@hotmail.com"
 Arch="all"
 
 Depends= ["curl", "coreutils"]
+idurDepends=["dunpress"]
 Conflict= ["idur-pkg"]
 Description="""
 idur dev tools
