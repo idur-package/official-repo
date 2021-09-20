@@ -31,6 +31,10 @@ cp idur.py /usr/bin/idur
 rm -vrf idurtemp/
 
 idur install idur-pkg
+echo
+echo
+echo
+echo "installed with no problem!"
 
 """
 
