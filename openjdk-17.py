@@ -14,8 +14,7 @@ Depends=["tar", "python3"]
 idurDepends= ["idur-pkg"]
 Conflict= ["openjdk-17"]
 Description="""
-
-description here
+openjdk-17, jre and jdk
 
 """
 
