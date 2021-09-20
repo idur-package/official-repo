@@ -17,7 +17,7 @@ uncompress tarballs and zip with one command.
 
 Install="""
 
-curl -L https://raw.githubusercontent.com/Can202/dunpress/v0.2/src/dunpress.py > /usr/bin/dunpress
+curl -L https://raw.githubusercontent.com/Can202/dunpress/v0.2/src/dunpress > /usr/bin/dunpress
 chmod a+x /usr/bin/dunpress
 
 """
