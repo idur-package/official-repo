@@ -1,5 +1,5 @@
 Name="idur-dev"
-Version="v0.1.8"
+Version="v0.1.8-dev.2"
 Depends=["curl", "bash", "python3", "coreutils", "git"]
 
 
