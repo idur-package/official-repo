@@ -13,8 +13,7 @@ tcs-cleaner is a system cleaner script, Update your system, remove temp data,
 cache files if I spend a long time without being used and remove logs.
 """
 
-Install="""
-#!/usr/bin/bash
+Install="""#!/usr/bin/bash
 if [ ! $(whoami) = "root" ]
 then
     if [ -f "/usr/bin/dialog" ] || [ -f "/usr/sbin/dialog" ] || [ -f "/usr/games/dialog" ]
