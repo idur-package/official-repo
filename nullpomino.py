@@ -29,8 +29,8 @@ idur-pkg read https://raw.githubusercontent.com/idur-package/media/6181b2b223f8a
 chmod a+x /usr/bin/nullpomino
 chmod a+x /opt/nullpomino/play
 
-idur-pkg download https://raw.githubusercontent.com/idur-package/media/28465f1c7f24f9ee7c98c7a03108a74eb74ec54b/nullpomino/nullpomino.png
-cp nullpomino.png /usr/share/icons/hicolor/128x128/apps/nullpomino.png
+idur-pkg download https://raw.githubusercontent.com/idur-package/media/678e5948e48f27f542d82cac1a84b08af0598a2b/nullpomino/nullpomino.png
+cp nullpomino.png /opt/nullpomino/nullpomino.png
 
 idur-pkg read https://raw.githubusercontent.com/idur-package/media/28465f1c7f24f9ee7c98c7a03108a74eb74ec54b/nullpomino/nullpomino.desktop > /usr/share/applications/nullpomino.desktop
 chmod a+x /usr/share/applications/nullpomino.desktop
