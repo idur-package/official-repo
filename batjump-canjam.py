@@ -51,7 +51,7 @@ ln /usr/lib64/batjump-canjam/batjump-canjam /usr/bin/batjump-canjam
 """
 
 Install32="""
-idur-pkg tmp
+idur-pkg tmp bjcj
 cd /tmp/idur-bjcj-tmp/
 idur-pkg download https://github.com/Can202/BatJump/releases/download/jam/Linux32.zip
 unzip Linux32.zip
