@@ -18,10 +18,6 @@ An action puzzle game like the popular Tetris game
 """
 
 Install64="""
-if [[ "lala" = "broke" ]]
-then
-	echo "hello"
-fi
 idur-pkg tmp nullpomino
 cd /tmp/idur-nullpomino-tmp/
 idur-pkg download https://github.com/nullpomino/nullpomino/releases/download/v7.5.0/NullpoMino7.5.0.zip
