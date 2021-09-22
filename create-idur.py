@@ -2,7 +2,7 @@
 Name="create-idur"
 Version="v0.6"
 
-
+Time="short"
 Maintainer="Can202"
 Contact="mgoopazo@gmail.com"
 

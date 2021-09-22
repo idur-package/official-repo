@@ -2,7 +2,7 @@
 Name="dgitignore"
 Version="v0.1"
 
-
+Time="short"
 Maintainer="Can202"
 Contact="mgoopazo@hotmail.com"
 

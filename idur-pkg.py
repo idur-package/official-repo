@@ -2,7 +2,7 @@
 Name="idur-pkg"
 Version="v0.5"
 
-
+Time="short"
 Maintainer="Can202"
 Contact="mgoopazo@hotmail.com"
 

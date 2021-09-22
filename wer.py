@@ -7,6 +7,8 @@ Maintainer="Can202"
 Contact="mgoopazo@hotmail.com"
 License="https://raw.githubusercontent.com/Can202/wer/main/LICENSE"
 
+Time="short"
+
 Arch="all" #all, x86_64, i386, both
 
 Description="""

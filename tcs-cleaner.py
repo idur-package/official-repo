@@ -2,7 +2,7 @@ Name="tcs-cleaner"
 Version="0"
 Depends=["curl", "bash", "dialog", "coreutils", "sug/snapd", "sug/flatpak"]
 Conflict=["tcs-cleaner"]
-
+Time="short"
 Maintainer="Can202"
 Contact="mgoopazo@hotmail.com"
 

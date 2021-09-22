@@ -7,7 +7,7 @@ Maintainer="Can202"
 Contact="mgoopazo@hotmail.com"
 
 Arch="x86_64"
-
+Time="short"
 
 License="https://raw.githubusercontent.com/Orama-Interactive/Pixelorama/master/LICENSE"
 Depends= ["libxcursor1", "tar", "coreutils"]

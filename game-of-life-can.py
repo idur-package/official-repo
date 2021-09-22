@@ -5,7 +5,7 @@ Version="v1"
 
 Maintainer="Can202"
 Contact="mgoopazo@hotmail.com"
-
+Time="short"
 Arch="both"
 
 

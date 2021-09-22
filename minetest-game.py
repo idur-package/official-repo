@@ -3,7 +3,7 @@ Version="5.4.1"
 
 Maintainer="Can202"
 Contact="mgoopazo@gmail.com"
-
+Time="medium"
 Arch="all"
 
 

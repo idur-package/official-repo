@@ -3,7 +3,7 @@ Version="automatic.1"
 
 Maintainer="Can202"
 Contact="mgoopazo@gmail.com"
-
+Time="short"
 Arch="x86_64"
 
 

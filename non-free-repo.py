@@ -6,6 +6,8 @@ Version="1"
 Maintainer="Can202"
 Contact="mgoopazo@hotmail.com"
 
+Time="short"
+
 Arch="all"
 
 idurDepends= ["idur-stable idur-dev"]

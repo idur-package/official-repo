@@ -4,7 +4,7 @@ Depends=["curl", "bash", "python3", "coreutils", "git"]
 
 
 Conflict=["idur-stable", "idur-dev"]
-
+Time="short"
 Maintainer="Can202"
 Contact="mgoopazo@hotmail.com"
 

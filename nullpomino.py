@@ -5,7 +5,7 @@ Version="v7.5.0"
 
 Maintainer="Can202"
 Contact="mgoopazo@hotmail.com"
-
+Time="short"
 Arch="x86_64"
 
 

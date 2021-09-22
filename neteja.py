@@ -6,6 +6,8 @@ Version="V4.0"
 Maintainer="Can202"
 Contact="mgoopazo@hotmail.com"
 
+Time="short"
+
 Arch="all"
 
 

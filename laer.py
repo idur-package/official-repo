@@ -5,7 +5,7 @@ Version="v0.2"
 
 Maintainer="Can202"
 Contact="mgoopazo@gmail.com"
-
+Time="short"
 Arch="all"
 
 Depends= ["vim", "bash", "neofetch", "coreutils"]

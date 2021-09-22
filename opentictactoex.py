@@ -7,7 +7,7 @@ Maintainer="Can202"
 Contact="mgoopazo@hotmail.com"
 
 Arch="both" #all, x86_64, i386, both
-
+Time="almost-medium"
 Description="""
 opentictactoex, a simple Tic Tac Toe game to play with a friend.
 """
