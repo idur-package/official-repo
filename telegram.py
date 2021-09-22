@@ -12,6 +12,7 @@ idurDepends=["idur-pkg"]
 Conflict=["telegram", "telegram-desktop"]
 Description="""
 Telegram Desktop:
+(Automatic Updater)
 Fast and secure desktop app,
 perfectly synced with your
 mobile phone.
