@@ -10,7 +10,7 @@ Arch="both"
 
 
 License="https://raw.githubusercontent.com/ramboxapp/community-edition/master/LICENSE"
-idurDepends= ["idur-pkg"]
+idurDepends= ["idur-pkg", "idur-exec"]
 Conflict= ["rambox-community"]
 Description="""
 Free and Open Source messaging and emailing app that combines common web applications into one. 
@@ -26,7 +26,7 @@ cd /opt/idur/share/program/rambox-community/
 ./Rambox-0.7.9-linux-x86_64.AppImage
 " > /opt/idur/share/program/rambox-community/rambox
 idur-pkg exec /opt/idur/share/program/rambox-community/rambox
-ln /opt/idur/share/program/rambox-community/rambox /usr/bin/rambox
+ln /opt/idur/share/program/rambox-community/rambox /opt/idur/bin/rambox
 
 idur-pkg download https://raw.githubusercontent.com/ramboxapp/community-edition/master/resources/logo/256x256.png
 mv 256x256.png /opt/idur/share/icons/rambox.png
@@ -50,7 +50,7 @@ cd /opt/idur/share/program/rambox-community/
 ./Rambox-0.7.9-linux-i386.AppImage
 " > /opt/idur/share/program/rambox-community/rambox
 idur-pkg exec /opt/idur/share/program/rambox-community/rambox
-ln /opt/idur/share/program/rambox-community/rambox /usr/bin/rambox
+ln /opt/idur/share/program/rambox-community/rambox /opt/idur/bin/rambox
 
 idur-pkg download https://raw.githubusercontent.com/ramboxapp/community-edition/master/resources/logo/256x256.png
 mv 256x256.png /opt/idur/share/icons/rambox.png
