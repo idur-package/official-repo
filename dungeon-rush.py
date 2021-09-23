@@ -1,5 +1,5 @@
 Name="dungeon-rush"
-Version="v0.1-beta"
+Version="v0.1-beta-1"
 
 Maintainer="Can202"
 Contact="mgoopazo@gmail.com"
