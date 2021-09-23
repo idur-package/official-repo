@@ -24,17 +24,17 @@ idur-pkg tmp waterfox
 cd $(idur-pkg dp waterfox)
 idur-pkg download https://cdn.waterfox.net/releases/linux64/installer/waterfox-G3.2.4.1.en-US.linux-x86_64.tar.bz2
 idur-pkg uncompress waterfox-G3.2.4.1.en-US.linux-x86_64.tar.bz2
-cp -r waterfox /opt/
-chmod a+rw -R /opt/waterfox
+cp -r waterfox /opt/idur/
+chmod a+rw -R /opt/idur/waterfox
 echo "#!/usr/bin/bash
-cd /opt/waterfox
-./waterfox" > /usr/bin/waterfox-bin
-chmod a+x /usr/bin/waterfox-bin
+cd /opt/idur/waterfox
+./waterfox" > /opt/idur/bin/waterfox
+chmod a+x /opt/idur/bin/waterfox
 echo "[Desktop Entry]
 Name=Waterfox
-Exec=waterfox-bin
+Exec=idur-exec waterfox
 Type=Application
-Icon=/opt/waterfox/browser/chrome/icons/default/default128.png
+Icon=/opt/idur/waterfox/browser/chrome/icons/default/default128.png
 Categories=Network" > /usr/share/applications/waterfox.desktop
 chmod a+x /usr/share/applications/waterfox.desktop
 idur-pkg rm-tmp waterfox
@@ -42,7 +42,7 @@ idur-pkg rm-tmp waterfox
 """
 
 Remove="""
-idur-pkg rm /opt/waterfox/
-idur-pkg rm /usr/bin/waterfox-bin
+idur-pkg rm /opt/idur/waterfox/
+idur-pkg rm /opt/idur/bin/waterfox
 idur-pkg rm /usr/share/applications/waterfox.desktop
 """
