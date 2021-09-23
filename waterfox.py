@@ -8,7 +8,7 @@ Arch="x86_64"
 Time="almost-medium"
 
 License="https://github.com/WaterfoxCo/Waterfox/blob/current/LICENSE"
-idurDepends=["idur-pkg"]
+idurDepends=["idur-pkg", "idur-exec"]
 Conflict=["waterfox"]
 Description="""
 Web Browser
