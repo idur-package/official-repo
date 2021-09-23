@@ -1,5 +1,5 @@
 Name="idur-exec"
-Version="v0.1"
+Version="v0.2"
 Depends=["python3", "bash", "curl"]
 idurDepends=["idur-pkg"]
 Conflict=["idur-exec"]
@@ -22,7 +22,7 @@ mkdir -p /opt/
 mkdir -p /opt/idur
 mkdir -p /opt/idur/bin/
 echo "exec idur-exec program to execute /opt/idur/bin/program" > /opt/idur/bin/readme.txt
-idur-pkg read https://raw.githubusercontent.com/idur-package/idur-exec/v0.1/idur-exec > /usr/bin/idur-exec
+idur-pkg read https://raw.githubusercontent.com/idur-package/idur-exec/v0.2/idur-exec > /usr/bin/idur-exec
 idur-pkg exec /usr/bin/idur-exec
 """
 
