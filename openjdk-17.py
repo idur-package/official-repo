@@ -1,6 +1,6 @@
 
 Name="openjdk-17"
-Version="35.2"
+Version="35.3"
 
 
 Maintainer="Can202"
@@ -11,7 +11,7 @@ Arch="x86_64"
 
 License="https://www.gnu.org/licenses/old-licenses/gpl-2.0.txt"
 Depends=["tar", "python3"]
-idurDepends= ["idur-pkg"]
+idurDepends= ["idur-pkg", "idur-exec"]
 Conflict= ["openjdk-17"]
 Description="""
 openjdk-17, jre and jdk
@@ -26,11 +26,13 @@ idur-pkg uncompress openjdk-17_linux-x64_bin.tar.gz
 idur-pkg copy /tmp/idur-jdk17-tmp/jdk-17/ /opt/idur/share/program/openjdk-17
 idur-pkg read https://raw.githubusercontent.com/idur-package/media/ae4609fd1417f6fa91d71cade4dfadc2df59ec8f/openjdk-17/openjdk-17 > /opt/idur/bin/openjdk-17
 idur-pkg exec /opt/idur/bin/openjdk-17
+ln /opt/idur/bin/openjdk-17 /usr/bin/openjdk-17
 idur-pkg rm-tmp jdk17
 """
 
 Remove="""
 idur-pkg rm /opt/idur/share/program/openjdk-17
 idur-pkg rm /opt/idur/bin/openjdk-17
+idur-pkg rm /usr/bin/openjdk-17
 
 """
