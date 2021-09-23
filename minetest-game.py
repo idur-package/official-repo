@@ -29,8 +29,9 @@ if [ $? = 0 ]
 then
     idur-pkg tmp minetest
     cd $(idur-pkg dp minetest)
-    #git clone --depth 1 --branch 5.4.1 https://github.com/minetest/minetest
-    git clone --depth 1 https://github.com/minetest/minetest
+    git clone https://github.com/minetest/minetest
+    git checkout 9f85862b7c0d2fd6fe964699bbeabc824026e848
+    # git clone --depth 1 https://github.com/minetest/minetest
     cd minetest
     git clone --depth 1 --branch 5.4.1 https://github.com/minetest/minetest_game games/minetest_game
     git clone --depth 1 https://github.com/minetest/irrlicht.git lib/irrlichtmt
