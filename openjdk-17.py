@@ -1,6 +1,6 @@
 
 Name="openjdk-17"
-Version="35.1"
+Version="35.2"
 
 
 Maintainer="Can202"
@@ -20,18 +20,17 @@ openjdk-17, jre and jdk
 
 Install64="""
 idur-pkg tmp jdk17
-cd /tmp/idur-jdk17-tmp/
+cd $(idur-pkg dp jdk17)
 idur-pkg download https://download.java.net/java/GA/jdk17/0d483333a00540d886896bac774ff48b/35/GPL/openjdk-17_linux-x64_bin.tar.gz
-tar -xvzf openjdk-17_linux-x64_bin.tar.gz
-cp -r /tmp/idur-jdk17-tmp/jdk-17/ /opt/openjdk-17
-idur-pkg read https://raw.githubusercontent.com/idur-package/media/bc4b85aa849ce60bc8ad8b93ea64b89cb97b01bb/openjdk-17/openjdk-17 > /usr/bin/openjdk-17
-chmod a+x /usr/bin/openjdk-17
-cd ..
+idur-pkg uncompress openjdk-17_linux-x64_bin.tar.gz
+idur-pkg copy /tmp/idur-jdk17-tmp/jdk-17/ /opt/idur/share/program/openjdk-17
+idur-pkg read https://raw.githubusercontent.com/idur-package/media/ae4609fd1417f6fa91d71cade4dfadc2df59ec8f/openjdk-17/openjdk-17 > /opt/idur/bin/openjdk-17
+idur-pkg exec /opt/idur/bin/openjdk-17
 idur-pkg rm-tmp jdk17
 """
 
 Remove="""
-idur-pkg rm /opt/openjdk-17
-idur-pkg rm /usr/bin/openjdk-17
+idur-pkg rm /opt/idur/share/program/openjdk-17
+idur-pkg rm /opt/idur/bin/openjdk-17
 
 """

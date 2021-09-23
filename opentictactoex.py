@@ -1,6 +1,7 @@
 Name="opentictactoex"
-Version="v0.5"
+Version="v0.5-1"
 Depends=["libxcursor1"]
+idurDepends=["idur-pkg", "idur-exec"]
 Conflict=["opentictactoex"]
 
 Maintainer="Can202"
@@ -14,41 +15,44 @@ opentictactoex, a simple Tic Tac Toe game to play with a friend.
 
 
 Install64="""
-cd /tmp/
-rm -vrf otttxtemp/
-mkdir -p otttxtemp/
-cd otttxtemp/
-curl -LO https://sourceforge.net/projects/opentictactoex/files/v0.5/OpenTicTacToeX.x86/download
-curl -LO https://raw.githubusercontent.com/OpenTicTacToeX/package/main/deb64/usr/share/icons/hicolor/256x256/apps/opentictactoex.png
-curl -LO https://raw.githubusercontent.com/OpenTicTacToeX/package/main/deb64/usr/share/applications/opentictactoex.desktop
-chmod a+x opentictactoex.desktop
-chmod a+x download
-cp download /usr/bin/opentictactoex
-cd ..
-rm -vrf /tmp/otttxtemp/
-
+idur-pkg tmp otttx
+cd $(idur-pkg dp otttx)
+idur-pkg download https://sourceforge.net/projects/opentictactoex/files/v0.5/OpenTicTacToeX.x86_64/download
+idur-pkg download https://raw.githubusercontent.com/OpenTicTacToeX/package/main/deb64/usr/share/icons/hicolor/256x256/apps/opentictactoex.png
+cp opentictactoex.png /opt/idur/share/icons/opentictactoex.png
+idur-pkg exec download
+cp download /opt/idur/bin/opentictactoex
+echo "[Desktop Entry]
+Name=OpenTicTacToeX
+Exec=idur-exec opentictactoex
+Icon=/opt/idur/share/icons/opentictactoex.png
+Type=Application
+Categories=Game" > /usr/share/applications/opentictactoex.desktop
+idur-pkg exec /usr/share/applications/opentictactoex.desktop
+idur-pkg rm-tmp otttx
 """
 
 Install32="""
-rm -vrf /tmp/otttxtemp/
-mkdir -p /tmp/otttxtemp/
-cd /tmp/otttxtemp/
-curl -LO https://sourceforge.net/projects/opentictactoex/files/v0.5/OpenTicTacToeX.x86/download
-curl -LO https://raw.githubusercontent.com/OpenTicTacToeX/package/main/deb64/usr/share/icons/hicolor/256x256/apps/opentictactoex.png
-curl -LO https://raw.githubusercontent.com/OpenTicTacToeX/package/main/deb64/usr/share/applications/opentictactoex.desktop
-chmod a+x opentictactoex.desktop
-chmod a+x download 
-cp opentictactoex.desktop /usr/share/applications/opentictactoex.desktop
-cp opentictactoex.png /usr/share/icons/hicolor/256x256/apps/opentictactoex.png
-cp download /usr/bin/opentictactoex
-cd ..
-rm -vrf /tmp/otttxtemp/
-
+idur-pkg tmp otttx
+cd $(idur-pkg dp otttx)
+idur-pkg download https://sourceforge.net/projects/opentictactoex/files/v0.5/OpenTicTacToeX.x86/download
+idur-pkg download https://raw.githubusercontent.com/OpenTicTacToeX/package/main/deb64/usr/share/icons/hicolor/256x256/apps/opentictactoex.png
+cp opentictactoex.png /opt/idur/share/icons/opentictactoex.png
+idur-pkg exec download
+cp download /opt/idur/bin/opentictactoex
+echo "[Desktop Entry]
+Name=OpenTicTacToeX
+Exec=idur-exec opentictactoex
+Icon=/opt/idur/share/icons/opentictactoex.png
+Type=Application
+Categories=Game" > /usr/share/applications/opentictactoex.desktop
+idur-pkg exec /usr/share/applications/opentictactoex.desktop
+idur-pkg rm-tmp otttx
 """
 
 Remove="""
-rm -vrf /usr/bin/opentictactoex
-rm -vrf /usr/share/applications/opentictactoex.desktop
-rm -vrf /usr/share/icons/hicolor/256x256/apps/opentictactoex.png
+idur-pkg rm /opt/idur/bin/opentictactoex
+idur-pkg rm /usr/share/applications/opentictactoex.desktop
+idur-pkg rm /opt/idur/share/icons/opentictactoex.png
 """
 
