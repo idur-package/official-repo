@@ -33,18 +33,18 @@ git clone --depth 1 --branch 5.4.1 https://github.com/minetest/minetest_game gam
 cmake . -DRUN_IN_PLACE=TRUE
 make -j$(nproc)
 cd $(idur-pkg dp minetest)
-cp -r minetest/ /opt/idur/
+cp -r minetest/ /opt/idur/share/program/
 
 echo "#!/bin/bash
-cd /opt/idur/minetest/
+cd /opt/idur/share/program/minetest/
 ./bin/minetest
 " > /opt/idur/bin/minetest-game
 idur-pkg exec /opt/idur/bin/minetest-game
-idur-pkg mod /opt/idur/minetest/
+idur-pkg mod /opt/idur/share/program/minetest/
 echo "[Desktop Entry]
 Name=Minetest
 Exec=idur-exec minetest-game
-Icon=/opt/idur/minetest/games/minetest_game/menu/icon.png
+Icon=/opt/idur/share/program/minetest/games/minetest_game/menu/icon.png
 Type=Application
 Categories=Game" > /usr/share/applications/minetest-game.desktop
 idur-pkg exec /usr/share/applications/minetest-game.desktop
@@ -56,7 +56,7 @@ idur-pkg rm-tmp minetest
 
 Remove="""
 
-idur-pkg rm /opt/idur/minetest/
+idur-pkg rm /opt/idur/share/program/minetest/
 idur-pkg rm /opt/idur/bin/minetest-game
 idur-pkg rm /usr/share/applications/minetest-game.desktop
 
