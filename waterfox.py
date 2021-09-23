@@ -27,8 +27,9 @@ idur-pkg uncompress waterfox-G3.2.4.1.en-US.linux-x86_64.tar.bz2
 cp -r waterfox /opt/idur/
 chmod a+rw -R /opt/idur/waterfox
 echo "#!/usr/bin/bash
+other="\$1 \$2 \$3 \$4 \$5 \$6 \$7 \$8 \$9"
 cd /opt/idur/waterfox
-./waterfox" > /opt/idur/bin/waterfox
+./waterfox \$other" > /opt/idur/bin/waterfox
 chmod a+x /opt/idur/bin/waterfox
 echo "[Desktop Entry]
 Name=Waterfox
