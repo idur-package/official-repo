@@ -31,11 +31,11 @@ echo "Dev tools installed"
 """
 
 Remove="""
-echo "you can remove the packages if a package need it"
-echo "trying remove idur-pkg"
+echo you can remove the packages if a package need it
+echo trying remove idur-pkg
 idur rm idur-pkg
-echo "trying remove idur-exec"
+echo trying remove idur-exec
 idur rm idur-exec
-echo "trying remove create-idur"
+echo trying remove create-idur
 idur rm create-idur
 """
