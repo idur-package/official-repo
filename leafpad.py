@@ -10,7 +10,7 @@ Time="almost-medium"
 
 
 License="https://www.gnu.org/licenses/old-licenses/gpl-2.0.html"
-Depends=["libgtk2.0-dev"]
+Depends=["libgtk2.0-dev", "make", "gcc"]
 idurDepends=["idur-pkg"]
 Conflict=["leafpad"]
 Description="""
