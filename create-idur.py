@@ -10,6 +10,7 @@ Arch="all"
 
 Depends= ["python3", "coreutils", "curl", "rec/idur-stable idur-dev"]
 Conflict= ["create-idur"]
+idurDepends=["idur-pkg"]
 Description="""
 
 An Easy way to create idurs
