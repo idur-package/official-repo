@@ -1,5 +1,5 @@
 Name="idur-dev"
-Version="v0.2.3-dev-1"
+Version="v0.2.3-dev-2"
 Depends=["curl", "bash", "python3", "python3-pip", "coreutils", "git"]
 
 
@@ -28,7 +28,7 @@ cd /tmp/
 rm -vrf idurtemp/
 mkdir -p idurtemp/
 cd idurtemp/
-curl -LO https://raw.githubusercontent.com/idur-package/idur/d3b0d903acb4c5b44ff53fa0d74618cadf044305/src/idur.py
+curl -LO https://raw.githubusercontent.com/idur-package/idur/5b8255c477a09f62ea4fc6966cdaa04ce4598606/src/idur.py
 chmod a+x idur.py
 cp idur.py /usr/bin/idur
 rm -vrf idurtemp/
