@@ -1,5 +1,5 @@
 Name="waterfox"
-Version="Auto2"
+Version="Auto3"
 
 Maintainer="Can202"
 Contact="mgoopazo@hotmail.com"
@@ -22,7 +22,7 @@ based on Firefox
 Install64="""
 idur-pkg tmp waterfox
 cd $(idur-pkg dp waterfox)
-idur-pkg download https://cdn.waterfox.net/releases/linux64/installer/waterfox-G3.2.6.en-US.linux-x86_64.tar.bz2
+idur-pkg download https://github.com/idur-package/media/releases/download/packages/waterfox-G3.2.6.en-US.linux-x86_64.tar.bz2
 idur-pkg uncompress waterfox-G3.2.6.en-US.linux-x86_64.tar.bz2
 cp -r waterfox /opt/idur/share/program/
 chmod a+rw -R /opt/idur/share/program/waterfox
