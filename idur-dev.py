@@ -1,6 +1,6 @@
 Name="idur-dev"
 Version="v0.2.3"
-Depends=["curl", "bash", "python3", "coreutils", "git"]
+Depends=["curl", "bash", "python3", "python3-pip", "coreutils", "git"]
 
 
 Conflict=["idur-stable", "idur-dev"]
@@ -21,6 +21,9 @@ NOT INSTALL
 
 
 Install="""
+
+pip3 install colorama
+
 cd /tmp/
 rm -vrf idurtemp/
 mkdir -p idurtemp/
