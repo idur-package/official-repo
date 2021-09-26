@@ -13,9 +13,8 @@ License="https://www.mozilla.org/en-US/foundation/licensing/"
 idurDepends=["idur-pkg", "idur-exec"]
 Conflict=["firefox"]
 Description="""
-
-description here
-
+Firefox is a web browser
+this version is with automatic updates
 """
 
 Install64="""
