@@ -32,7 +32,7 @@ idur-pkg download http://ftp.us.debian.org/debian/pool/main/liba/libappindicator
 idur-pkg download http://ftp.us.debian.org/debian/pool/main/libi/libindicator/libindicator3-7_0.5.0-4_amd64.deb
 idur-pkg download http://ftp.us.debian.org/debian/pool/main/liba/libappindicator/libappindicator3-dev_0.4.92-7_amd64.deb
 idur-pkg download http://ftp.us.debian.org/debian/pool/main/liba/libappindicator/libappindicator3-1_0.4.92-7_amd64.deb
-apt install ./*
+apt -y install ./*
 cd ..
 
 # Download Files
